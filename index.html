@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+       <meta charset ="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="header.css">      
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="footer.css">
+ <link rel="stylesheet" href="middle.css">
+
+
+
+       <script src="https://kit.fontawesome.com/a32f28a420.js">
+
+
+
+            
+
+</script>
+
+</head>
+<body bgcolor="#4B4FAC">
+
+
+
+<header>
+<nav class="navbar">
+
+     
+     
+      <ul>
+
+ <div class="logo">
+           <p>GRADIENTEK</p>
+      </div>
+
+
+          
+          <li><a href="admin.php">Login</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="cont1.html">Contact</a></li>
+          <li><a href="aboutus.php">AboutUs</a> </li>
+          <li><a href="index.html" class="active">Home</a></li>
+       <div class="search">
+               <input type="text" name="search" id="search" placeholder="search content here">
+       </div>
+
+</ul>
+      
+</nav>
+</header>
+
+
+
+
+<section class="home" id="home">
+<div class="content">
+<h3>GRADIENTEK </h3>
+<span>the complete IT solution</span>
+<p>Gradientek - Prop Mr Kevin Jignesh Sidhpura is a 3 years 3 months old Proprietorship Firm incorporated
+ on 15-Feb-2020, having its registered office located at 7/2, Shanti Niketan, Station Road, Tagore Nagar,
+ Vikhroli (East), Mumbai, Maharashtra.
+The major activity of Gradientek - Prop Mr Kevin Jignesh Sidhpura is Services, Sub-classified into
+ Information service activities and is primarily engaged in the Other information service activities
+ n e c .Gradientek - Prop Mr Kevin Jignesh Sidhpura is classified as Micro enterprise in the financial 
+year 2018-19.
+ It has its unit situated at Mumbai, Maharashtra.</p>
+
+<a href="about.html" class="btn">Know More</a>
+
+</div>
+
+
+<div class="midimg">
+<img src="image/logo10.png" alt="" class="card-img">
+</div>
+</section>
+
+
+
+
+
+
+
+
+<div class="questions">
+   
+     <div class="cont2">
+        <div class="label">Who Is the woner gradientek privated limited</div>
+         <div class="content2">
+             <p>kevin sidhpura</p>
+          </div>
+       </div>
+   
+    <div class="cont2">
+        <div class="label">On which year the Gradientek Private limited was developed</div>
+         <div class="content2">
+             <p>on year 2012</p>
+          </div>
+       </div>
+
+       <div class="cont2">
+        <div class="label">Is Gradientek Private Limited Is government registered?</div>
+         <div class="content2">
+             <p>yes, Basically on year 2014 the gradientek pri. lmt. is offical registered by government</p>
+          </div>
+       </div>
+
+        <div class="cont2">
+        <div class="label">how many employee working in this company?</div>
+         <div class="content2">
+             <p>above 500 it workers</p>
+          </div>
+       </div>
+
+        <div class="cont2">
+        <div class="label">What is the purpose of Gradientek pri. lmt. ?</div>
+         <div class="content2">
+             <p>the main purpose is tho provide complete IT solution</p>
+          </div>
+       </div>
+
+     
+
+<script>
+ var que = document.getElementsByClassName("label");
+ var i;
+       for(i=0; i<que.length; i++){
+           que[i].addEventListener("click", function(){
+           this.classList.toggle("active");
+           this.parentElement.classList.toggle("active");
+    
+        var content2 = this.nextElementSibling;
+
+        if(pannel.style.display == "block"){
+          content2.style.display = "none";
+          }else{
+              content2.style.display = "block";
+           }
+          
+       });
+   }
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+<div class="row">
+  <div class="col">
+<p> welcome to official gradientek company website. THIS you complete IT solution. This company developed by Kevin Sisdhpura with help of his team in 2012. This company officially registered in 2018. Now this comapany work on many minor and major project like PHP,JAVA and PYTHON based project. 
+</p>
+     </div>
+   <div class="col"> 
+        <h3>office <div class="underline"><span></span></div></h3>
+         <p>IT SECTOR</p>
+         <p>Navi Mumbai</p>
+         <p>Near Tajmahal Hotel, 422605</p>
+         <p class="email-id">vbm@gmail.com</p>
+</div>
+   <div class="col">
+        <h3>Links <div class="underline"><span></span></div></h3>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">help desk</a></li>
+            <li><a href="">service</a></li>
+        </ul>
+</div>
+ <div class="col">
+      <h3>Newsletter <div class="underline"><span></span></div></h3>
+          <form>
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="enter your email id" required>
+             <button type="submit"><i class="fas fa-arrow-right"></i></button>
+          </form>
+
+
+  <div class="social-icons">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+  </div>
+</div>
+</div>
+<hr>
+</footer>
+
+ 
+
+
+
+
+<script>
+ var icon = document.getElementById("icon");
+            icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+            icon.src = "image/sun.jpg";
+          }else{
+                icon.src = "image/moon.png";
+}
+}
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

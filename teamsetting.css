@@ -1,0 +1,72 @@
+td img{
+width: 70px;
+height: 70px;
+margin-right: 1rem;
+margin-left: 1rem;
+border-radius: 50%;
+vertical-align: middle;
+}
+
+
+
+
+
+
+table{
+border-collapse: collapse;
+width: 100%;
+background-color: #272c4a;
+height: 30px;
+margin-top: 10px;
+float: left;
+margin-left: 10px;
+
+
+}
+
+td,th{
+text-align: center;
+padding: 2px;
+color: #ddd;
+border-bottom: 2px solid #8181819;
+}
+
+td a{
+display: inline-block;
+padding: 7px 7px;
+font-size: 10px;
+background: #134FC3;
+color: #fff;
+margin: 0 5px;
+text-transform: capitalize;
+border-radius: 70%;
+
+}
+
+
+
+
+td a:hover{
+background: crimson;
+border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

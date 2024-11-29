@@ -1,0 +1,38 @@
+.form-container a{
+display: inline-block;
+padding: 7px 7px;
+font-size: 20px;
+background: #134FC3;
+color: #fff;
+margin: 0 5px;
+text-transform: capitalize;
+width: 450px;
+}
+
+.form-container input{
+border: 2px solid;
+}
+
+
+
+.form-container a:hover{
+background: crimson;
+border-radius: 20%;
+
+}
+
+
+.form-container .form-btn:hover{
+background: crimson;
+border-radius: 20%;
+
+}
+
+
+
+.user-wrapper img{
+border-radius: 50%;
+margin-right: 1rem;
+height: 40px;
+width: 60px;
+}

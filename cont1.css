@@ -1,0 +1,495 @@
+
+
+
+
+
+
+
+.navbar{
+     width: 105%;
+     position: absolute;
+     top: 0;
+     background: linear-gradient(to right,#2FB099, #2FB099);
+     color:#fff;
+     padding: 1px 0 10px;
+    border-radius: 25px;
+     font-size:13px;
+     line-height:30px;
+
+}
+
+.navbar li{
+       float:right;
+       list-style: none;
+       margin: 13px 20px;
+       
+
+}
+ 
+
+.logo {
+       font-size: 35px;
+       font-weight: bold;
+       float:left;
+       color: white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      cursor: pointer;
+      
+}
+
+.navbar li a{
+      padding: 1px 1px;
+      text-decoration: none;
+      color: black;
+       font-weight: bold;
+        font-size: 20px;
+       cursor: pointer;
+       
+}
+
+.navbar li a:hover{
+      color: red;
+}
+
+.search{
+      float: right;
+      color: white;
+      padding: 12px 75px;
+
+
+
+}
+
+.navbar input{
+      border: 2px solid black;
+      border-radius: 14px;
+      padding: 3px 17px;
+      width: 129px;
+}
+
+
+
+
+
+
+
+
+
+
+
+body
+{
+padding: 3rem 0;
+display:flex;
+  background-color: #6396FA;
+}
+
+
+
+.contactUs
+{
+position: relative;
+width: 90%;
+padding: 6rem;
+
+}
+
+
+.contactUs .title
+{ 
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2em;
+}
+
+.contactUs .title h2
+{
+color: #fff;
+font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form
+{
+grid-area: form;
+background: #fff;
+display: flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 90%;
+max-width: 600px;
+border-radius: 12px;
+}
+
+
+
+
+.form input{
+ border:1px;
+margin: 10px 0;
+padding: 20px;
+outline: none;
+background: #f5f5f5;
+font-size: 16px;
+}
+
+ .button{
+padding: 15px;
+background: #ff5361;
+color: #fff;
+font-size: 18px;
+border: 0;
+outline: none;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info
+{
+grid-area: info;
+}
+
+
+.map
+{
+grid-area: map;
+}
+
+.contact
+{
+padding: 40px;
+background: #fff;
+box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+
+}
+
+
+
+.contact h3
+{
+color: #0e3959;
+font-weight: 500;
+font-size: 1.4em;
+margin-bottom: 10px;
+}
+
+
+
+.box
+{
+position: relative;
+display: grid;
+grid-template-columns: 3fr 3fr;
+grid-template-rows: 6fr 2fr;
+
+grid-template-areas:
+"form info"
+"form map";
+grid-gap:30px;
+margin-top: 30px;
+
+}
+
+
+.formBox
+{
+position: relative;
+width: 100%;
+}
+
+ 
+.formBox .row50{
+dispaly: flex;
+gap: 50px;
+}
+
+.inputBox
+{
+display:flex;
+flex-direction: column;
+margin-bottom: 10px;
+width: 50%;
+}
+
+
+.formBox .row100 .inputBox
+{
+width: 100%;
+
+}
+
+.inputBox span
+{
+color: #18b7ff;
+margin-top:10px;
+margin-bottom: 5px;
+font-weight: 500;
+}
+
+
+.inputBox input
+{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 3px solid #333;
+}
+
+
+.inputBox textarea
+{
+padding: 10px;
+font-size: 1.1em;
+outline: none;
+border: 3px solid #333;
+resize: none;
+min-height:220px;
+margin-bottom: 10px;
+}
+
+
+.inputBox input[type="submit"]
+{
+background:#ff578b;
+color:#fff;
+border: none;
+font-size: 1.1em;
+max-width: 120px;
+font-weight: 500;
+cursor: pointer;
+padding: 14px 15px;
+}
+
+
+
+.inputBox ::placeholder
+{
+color: #999;
+}
+
+
+
+
+
+
+.info
+{
+background: #0e3959;
+}
+
+
+.info h3
+{
+color: #fff;
+}
+
+
+.info .infoBox div
+{
+display: flex;
+align-items: center;
+margin: 10px;
+}
+
+.info .infoBox div span
+{
+min-width: 45px;
+height: 45px;
+color: #fff;
+background: #18b7ff;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+border-radius: 50%;
+margin-right:20px;
+}
+
+
+.info .infoBox div p
+{
+  color: #fff; 
+  font-size: 1.1em;
+
+}
+
+
+
+.info .infoBox div a
+{
+  color: #fff; 
+font-size: 1.1em;
+  
+}
+
+
+.sci
+{
+margin-top: 40px;
+display: flex;
+
+}
+
+.sci li
+{
+list-style: none;
+margin-right:15px;
+}
+
+.sci li a
+{
+color: #fff;
+font-size: 2em;
+color: #ccc;
+}
+
+
+.sci li a:hover
+{
+color: #fff;
+}
+
+
+
+
+.map
+{
+padding:0;
+
+}
+.map iframe
+{
+width:100%;
+height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form .field {
+  margin-bottom: 50px;
+}
+
+ .form .field label {
+  display: block;
+  font-size: 22px;
+  color: #010112;
+}
+
+ .form .field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #010112;
+  border-radius: 5px;
+
+}
+
+
+.form button{
+color: #010112;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

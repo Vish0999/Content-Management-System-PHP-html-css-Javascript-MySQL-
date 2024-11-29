@@ -1,0 +1,149 @@
+
+
+
+
+
+
+
+.navbar{
+     width: 100%;
+     position: absolute;
+     top: 0;
+     background: linear-gradient(to right,#286EF5, #286EF5);
+     color:#fff;
+     padding: 1px 0 1px;
+    border-radius: 5px;
+     font-size:13px;
+     line-height:20px;
+
+}
+
+.navbar li{
+       float:right;
+       list-style: none;
+       margin: 13px 20px;
+       
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+       font-size: 30px;
+       font-weight: bold;
+       float:left;
+       color: white;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      
+}
+
+.navbar li a{
+      padding: 1px 1px;
+      text-decoration: none;
+      color: black;
+       font-weight: bold;
+        font-size: 20px;
+       cursor: pointer;
+       
+}
+
+.navbar li a:hover{
+      color: red;
+}
+
+.search{
+      float: right;
+      color: white;
+      padding: 12px 75px;
+
+
+
+}
+
+.navbar input{
+      border: 2px solid black;
+      border-radius: 14px;
+      padding: 3px 17px;
+      width: 129px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar ic{
+width:10px;
+cursor: pointer;
+}
+
+:root{
+--primary-color: #6396FA;
+--secondary-color: #212121;
+}
+
+.dark-theme{
+--primary-color: #F3F5FA;
+--secondary-color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
